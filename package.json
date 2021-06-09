@@ -1,0 +1,21 @@
+{
+  "name": "junit-to-cucumber",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "bin": {
+    "junit-to-cucumber": "./bin/index.js"
+  },
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "jsonfile": "^6.1.0",
+    "junit-report-builder": "^3.0.0",
+    "xml2js": "^0.4.23",
+    "yargs": "^17.0.1"
+  }
+}
